@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import '~bootstrap/dist/css/bootstrap.min.css';   
+
+table, th, td {
+  border : 1px solid black;
+  font-size : 17px;
+  padding : 10px;
+}
+
+a {
+  font-size: 17px;
+  padding-bottom : 10px;
+}
+
+a:hover{
+  color : blue;
+  cursor : pointer;
+}
+
+form, input {
+  font-size: 17px;
+  padding: 5px;
+  margin-top: 15px;
+}

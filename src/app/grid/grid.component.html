@@ -1,0 +1,35 @@
+
+
+<a style="margin-left: 493px;" [routerLink]="['add']"> + AddStudent</a>
+<br />
+
+<div>
+  <table style="margin-left: 493px;">
+    <thead>
+      <tr>
+        <th>StudentName</th>
+        <th>RollNumber</th>
+        <th>Age</th>
+        <th>Gender</th>
+        <th>EmailId</th>
+        <th></th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let studentInfo of studentData">
+        <td>{{studentInfo.StudentName}}</td>
+        <td>{{studentInfo.RollNumber}}</td>
+        <td>{{studentInfo.Age}}</td>
+        <td>{{studentInfo.Gender}}</td>
+        <td>{{studentInfo.EmailId}}</td>
+        <td [routerLink]="['edit',studentInfo.StudentId]">
+          <a>Edit</a>
+        </td>
+        <td (click)="deleteEmployee(studentInfo.StudentId)">
+          <a>Delete</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

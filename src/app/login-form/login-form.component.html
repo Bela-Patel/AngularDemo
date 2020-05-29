@@ -1,0 +1,18 @@
+
+
+
+<div style="border:1px solid black; width: 26%; margin-left: 652px;" >
+  <form [formGroup]="loginData" (ngSubmit)="loginSubmit()">
+    <div class="form-group" style="padding-left: 39px;">
+      <label for="userName">Login :</label>
+      <input type="text" id="userName" formControlName="userName" maxlength="50" class="form-control" placeholder="User Name" style="margin-left: 39px; width: 76%;" />
+    </div>
+    <div class="form-group" style="padding-left: 39px;">
+      <label for="password">Password :</label>
+      <input type="password" id="password" maxlength="10" formControlName="password" class="form-control" placeholder="Password" style="margin-left: 39px; width: 76%;" />
+    </div>
+    <div style="padding-left: 224px;">
+      <input type="submit" class="btn btn-primary" value="Login" />
+    </div>
+  </form>
+</div>

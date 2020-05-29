@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\add",
+    "\\src\\app\\grid",
+    "\\src\\app\\login-form"
+  ],
+  "SelectedNode": "\\src\\app\\add\\add.component.html",
+  "PreviewInSolutionExplorer": false
+}
