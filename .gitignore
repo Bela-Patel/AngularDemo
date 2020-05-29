@@ -48,6 +48,6 @@ Thumbs.db
 # System Files
 /Temp
 
-# System Files
-.NewFolder/*
+# Folder
+NewFolder/*
 
